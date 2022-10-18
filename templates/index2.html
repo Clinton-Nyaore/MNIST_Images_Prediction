@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <h1>Upload the image for prediction</h1>
+ 
+    <form method="POST" enctype="multipart/form-data" action="/">
+        <input type="file" id="myFile" name="uploaded-file" accept=".png">
+        <input type="submit" value="Submit">
+    </form>
+  <br>
+  <p style="color:green;">File uploaded successfully</p>
+  <form action="/show_image" target="_blank">
+        <input type="submit" value="Display Image" />
+    </form>
+  </body>
+</html>
