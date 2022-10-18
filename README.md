@@ -1,1 +1,1 @@
-# MNIST_Images_Prediction
+# MNIST Images Prediction
